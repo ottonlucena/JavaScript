@@ -1,6 +1,6 @@
 
 
-alert("Bienvenido(a), este es un pequeño programa donde puedes calcular Ganancias, Costo más IVA y Costo total del producto con la utilidad que desees.");
+alert("Bienvenido(a), este es un pequeño programa donde puedes calcular Ganancias, Costo más IVA y Costo total del producto con la utilidad que desees..");
 let nombre = prompt("¿ Cúal es tu nombre ?").toUpperCase();
 let apellido = prompt("Por favor indicanos tu apellido: ").toUpperCase();
 let nombreApellido = nombre + " " + apellido;
