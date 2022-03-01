@@ -4,7 +4,7 @@ alert("Bienvenido(a), este es un pequeño programa donde puedes calcular Gananci
 let nombre = prompt("¿ Cúal es tu nombre ?").toUpperCase();
 let apellido = prompt("Por favor indicanos tu apellido: ").toUpperCase();
 let nombreApellido = nombre + " " + apellido;
-alert(`Muy bien ${nombreApellido}, ahora te haremos unas breves preguntas para que puedas ver tu resultado final del producto.`);
+alert(`Muy bien ${nombreApellido}, ahora te haremos unas breves preguntas para que puedas ver tu resultado final del producto!`);
 
 let costo = parseInt(prompt(`${nombreApellido}, indicanos el costo de tu producto: `));
 let ivaPais = parseInt(prompt("¿ Cuanto es el IVA (impuesto) en tu pais ?"));

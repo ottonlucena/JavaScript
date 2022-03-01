@@ -1,4 +1,4 @@
-
+/* 
 
 let tutor = "DIEGO";
 let alumno = "OTTON";
@@ -16,3 +16,28 @@ for (let i = 0; i <= 3; i++) {
         break
     }
 }
+ */
+
+/* let nombre = prompt("cúal es tu nombre?");
+
+
+function otton(nombreUsuario) {
+
+    console.log("Holaaaaaa " + nombreUsuario);
+};
+
+
+
+otton(nombre); */
+
+
+function suma(primerNumero, segundoNumero) {
+
+    let resultado = primerNumero + segundoNumero
+
+    return resultado
+
+};
+
+let resultado = suma(30,20);
+console.log("resultado = " + resultado);
