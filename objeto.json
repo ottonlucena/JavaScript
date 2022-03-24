@@ -1,0 +1,21 @@
+[ 
+    {
+        "id": 1, "descripcion": "Echo Auto", "marca": "amazon", "precio": 39000, "img": "img/carrito/echoauto.png"
+    },
+    {
+        "id": 2, "descripcion": "Echo Show", "marca": "amazon", "precio": 89000, "img": "img/carrito/echoS.png"
+    },
+    {
+        "id": 3, "descripcion": "Echo show 10", "marca": "amazon", "precio": 329000, "img": "img/carrito/echoshow10.png"
+    },
+    {
+        "id": 4, "descripcion": "Fire TV", "marca": "amazon", "precio": 63000, "img": "img/carrito/firetv.png"
+    },
+    {
+        "id": 5, "descripcion": "Fire Cube", "marca": "amazon", "precio": 162000, "img": "img/carrito/fireC.png"
+    },
+    {
+        "id": 6, "descripcion": "Tablet Fire", "marca": "amazon", "precio": 123440, "img": "img/carrito/tabletfire.png"
+    }
+    
+    ]    

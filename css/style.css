@@ -1,3 +1,17 @@
+:root{
+    --color-yellow: #333;
+    --bg-primario: #ffff;
+    
+}
+
+
+.loca{
+    color: red;
+}
+.rotate-45{
+    list-style: none;
+}
+
 html,body{
     height: 100%;
 }
@@ -14,4 +28,5 @@ html,body{
 
 h2{
     margin-right: 30px;
+    color: blue;
 }
