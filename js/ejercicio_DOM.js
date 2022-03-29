@@ -1,7 +1,6 @@
 const cards = document.getElementById("cards");
 const items = document.getElementById("items");
 const footerTabla = document.getElementById("footerTabla");
-/* const btnCarrito = document.getElementById("header") */
 const templateProductos = document.getElementById("templateCard").content;
 const templateFooter = document.getElementById("templateFooter").content;
 const templateCarrito = document.getElementById("templateCarrito").content;
@@ -31,11 +30,6 @@ d.addEventListener("DOMContentLoaded", (e) => {
         pintarCarrito();
     }
 })
-
-/* btnCarrito.addEventListener("click", e =>{
-    aggbtn(e)
-
-}) */
 
 cards.addEventListener("click", e => {
     aggCarrito(e);
@@ -151,11 +145,19 @@ const btnItems = e => {
     e.stopPropagation();
 }
 
-//const aggbtn = e => {
-    /* console.log(e.target);
-    console.log(e.target.classList.contains("btncard")) */
-  //  if(e.target.classList.contains("btncard")){
-   //     console.log(e.target.parentElement)
-    //}
- //   e.stopPropagation();
-//} 
+
+const btnCarrito = document.getElementById("btnCarrito");
+btnCarrito.addEventListener("click", (e) => {
+    let cart = JSON.parse(localStorage.getItem("guardado"));
+    const ul = document.querySelector(".dropdown-menu");
+    let li = '';
+    Object.values(cart).forEach(item => {
+        li += `<li><span class="liCant" >${item.cant}</span> - ${item.descripcion} - Total: $${item.cant * item.precio}</li>`;});
+        if(localStorage.getItem("guardado").length <= 2){
+            li = `<span class="liVacio"> Usuario su carrito esta vacio! </span>`;
+        }
+
+        /* console.log(localStorage.getItem("guardado").length) */
+    ul.innerHTML = `${li}`;
+
+})
